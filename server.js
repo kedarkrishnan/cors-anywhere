@@ -12,7 +12,7 @@ var originBlacklist = parseEnvList(process.env.CORSANYWHERE_BLACKLIST);
 
 //var originWhitelist = parseEnvList(process.env.CORSANYWHERE_WHITELIST);
 //hardcoding as heroku free version does not allow env setup
-var originWhitelist = 'chrome-extension://lmapicpbalpmfcenkemhepakgkaedjko, chrome-extension://kbibobplpklgigohiimielnfekelcfnc, chrome-extension://hamleelogkljjjimkbbnkempckogdchp, http://localhost:8100';
+var originWhitelist = 'chrome-extension://lmapicpbalpmfcenkemhepakgkaedjko, chrome-extension://ljeenofblgeeikdmkmmfelmnfcajncgb, chrome-extension://hamleelogkljjjimkbbnkempckogdchp, http://localhost:8100';
 
 function parseEnvList(env) {
   if (!env) {
